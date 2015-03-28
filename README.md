@@ -2,14 +2,16 @@
 A simple unity game.
 Play it [here].
 
+#Screenshot:
+![alt tag](https://github.com/alijahani/PIXELS/blob/master/ScreenShot.png)
+
 #LICENSE:
 MIT
 
 #RESOURCES:
 
 file:Zander Noriega - Darker Waves_0.mp3
-By: Zander Noriega
-URL:http://opengameart.org/content/darker-waves
+By: Zander Noriega ,http://opengameart.org/content/darker-waves
 License:Creative Commons By Attribution 3.0
 
 file:camera.png
@@ -26,5 +28,5 @@ If you like this game, you can donate me with bitcoin:
 
 thank you alot!
 
-[here]:Link
+[here]:http://alijahani.github.io/PixelsOnline.html
 [3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN]:bitcoin:3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN
