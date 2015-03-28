@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
+using System.IO;
 
 public class Helper
 {
@@ -60,6 +62,17 @@ public class Helper
             }
         }
         return false;
+    }
+
+    public static IEnumerator PngWebPage()
+    {
+        yield return new WaitForEndOfFrame();
+
+        Texture2D tex = new Texture2D(Screen.width, Screen.height);
+        tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        tex.Apply();
+
+        Application.ExternalCall("SH", System.Convert.ToBase64String(tex.EncodeToPNG()));
     }
 
 }

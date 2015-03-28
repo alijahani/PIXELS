@@ -32,8 +32,8 @@ class LevelControl
     public static int GetScore(GameObject Lo, GameObject Ro)
     {
         int Level = (int)UnityEngine.Time.timeSinceLevelLoad / 10 + 1;
-        if (Level > 3)
-                Level = 3;
+        if (Level > 4)
+                Level = 4;
         bool pL = L;
 
         if (Helper.IsClicked(Lo))

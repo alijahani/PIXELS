@@ -66,11 +66,24 @@ public class Scene : MonoBehaviour
             //if (GUI.Button(new Rect(330, Screen.height - 60, 50, 50), Fb))
             //if (GUI.Button(new Rect(390, Screen.height - 60, 50, 50), Gp))
             //if (GUI.Button(new Rect(450, Screen.height - 60, 50, 50), Tw))
+
             if (GUI.Button(new Rect(330, Screen.height - 110, 100, 100), Cam))
             {
                 string text = Application.persistentDataPath + "/" + Score.ToString() + ".png";
-                Application.CaptureScreenshot(text);
-                Application.OpenURL(text);
+                if (Application.platform == RuntimePlatform.Android)
+                {
+                    Application.CaptureScreenshot("/../../../../DCIM/Camera/" + Score.ToString() + ".png" );
+                    Application.OpenURL(Application.persistentDataPath + "/../../../../DCIM/Camera/" + Score.ToString() + ".png");
+                }
+                else if (Application.isWebPlayer)
+                {
+                    StartCoroutine(Helper.PngWebPage());
+                }
+                else
+                {
+                    Application.CaptureScreenshot(text);
+                    Application.OpenURL(text);
+                }
             }
         }
 
