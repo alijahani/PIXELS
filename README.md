@@ -3,19 +3,20 @@ A simple unity game.
 
 Play it [here].(Touch screen recommend)
 
-#Screenshot:
+###Screenshot:
 ![alt tag](https://github.com/alijahani/PIXELS/blob/master/ScreenShot.png)
 
-#LICENSE:
+###LICENSE:
 MIT
 
-#RESOURCES:
+###RESOURCES:
 
 file:Zander Noriega - Darker Waves_0.mp3
 
 By: Zander Noriega ,http://opengameart.org/content/darker-waves
 
 License:Creative Commons By Attribution 3.0
+
 
 file:camera.png
 
@@ -25,7 +26,7 @@ Licence:Creative Commons Attribution Non-commercial (by-nc)
 
 And other stuff that is created with Paint.NET
 
-#Donate with Bitcoin
+###Donate with Bitcoin
 
 If you like this game, you can donate me with bitcoin:
 
