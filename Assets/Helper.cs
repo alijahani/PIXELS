@@ -68,11 +68,21 @@ public class Helper
     {
         yield return new WaitForEndOfFrame();
 
-        Texture2D tex = new Texture2D(Screen.width, Screen.height);
-        tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-        tex.Apply();
+        Texture2D Tex = new Texture2D(Screen.width, Screen.height);
+        Tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        Tex.Apply();
 
-        Application.ExternalCall("SH", System.Convert.ToBase64String(tex.EncodeToPNG()));
+        Application.ExternalCall("SH", System.Convert.ToBase64String(Tex.EncodeToPNG()));
+
+/*
+*       In the HTML Page:
+* 		
+*       function SH(base64) 
+*       {
+*	        window.open("data:image/png;base64," + base64);
+*       }
+*
+*/
     }
 
 }
