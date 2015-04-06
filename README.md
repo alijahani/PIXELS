@@ -1,10 +1,10 @@
 #PIXELS
 A simple unity game.
 
-Play it [here].(Touch screen recommend)
+Play it [here](http://alijahani.github.io/PixelsOnline.html).(Touchscreen recommend)
 
 ###Screenshot:
-![alt tag](https://github.com/alijahani/PIXELS/blob/master/ScreenShot.png)
+![ScreenShot](https://raw.githubusercontent.com/alijahani/PIXELS/master/ScreenShot.png)
 
 ###LICENSE:
 MIT
@@ -26,13 +26,10 @@ Licence:Creative Commons Attribution Non-commercial (by-nc)
 
 And other stuff that is created with Paint.NET
 
-###Donate with Bitcoin
+###Donations
 
 If you like this game, you can donate me with bitcoin:
 
-[3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN]
+[3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN](bitcoin:3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN)
 
 thank you alot!
-
-[here]:http://alijahani.github.io/PixelsOnline.html
-[3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN]:bitcoin:3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN
