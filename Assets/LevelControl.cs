@@ -36,7 +36,7 @@ class LevelControl
                 Level = 4;
         bool pL = L;
 
-        if (Helper.IsClicked(Lo))
+        if (Helper.IsClicked(Lo) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             RanFeel(Level);
             if (pL)
@@ -45,7 +45,7 @@ class LevelControl
                 return -1;
         }
 
-        if (Helper.IsClicked(Ro))
+        if (Helper.IsClicked(Ro) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             RanFeel(Level);
             if (pL)
