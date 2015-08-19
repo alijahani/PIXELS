@@ -24,12 +24,19 @@ By:Brsev , http://brsev.deviantart.com/
 
 Licence:Creative Commons Attribution Non-commercial (by-nc)
 
+
+file:OpenSans-Regular.ttf
+
+By:Steve Matteson
+
+License:Apache License 2.0
+
 And other stuff that is created with Paint.NET
 
 ###Donations
 
 If you like this game, you can donate me with bitcoin:
 
-[3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN](bitcoin:3LWAccfk8SCj48aTo1xEooBPK5tvd2RSCN)
+3LWAccfk8SCj48aTo1xEooBPK5tvd2RSC
 
 thank you alot!
